@@ -1,0 +1,127 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.cabecalho {
+  flex-basis: 30%;
+}
+
+.cabecalho_logo {
+  margin-bottom: 50px;
+}
+
+
+.cabecalho_logo img {}
+.cabecalho_logo figcaption{
+  display: none;
+}
+
+.menuNavegacao {}
+
+.menuLista {}
+.menuItem{
+  margin-bottom: 25px;
+
+}
+
+.menuItem img {
+max-width: 26px;
+}
+
+.menuItem a {
+  color: #000;
+  text-decoration: none;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+/* Conteudo Principal */
+
+.principal {
+  flex-basis: 70%;
+  border-left: 1px solid #e7ecf0;
+  border-right: 1px solid #ddd;
+}
+.titulo{
+  padding: 10px 30px;
+}
+.textoTweet{
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 60px;
+  
+}
+.form{
+  padding: 10px 30px;
+  border-top: 1px solid #e7ecf0;
+  border-bottom: 10px solid #e7ecf0;
+  text-align: right;
+
+}
+.form button{
+  background-color: #1da1f2;
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 15px;
+}
+.form button:hover{
+  background-color:#0d4d75 ;
+}
+
+.listaTweets{display: flex;
+  flex-flow: column-reverse nowrap;}
+ .tweet {
+   padding: 20px 30px;
+   display: flex;
+   align-items: flex-start;
+   
+   
+ }
+ .conteudo{
+   margin-left: 15px;
+ }
+
+.fotoPerfil {}
+
+.feed {}
+
+.conteudo h2 {
+  display: inline-block;
+ 
+}
+
+.conteudo span {
+  display: inline-block;
+  color: grey;
+}
+
+.conteudo p {
+  margin-top: 15px;
+  color: #333333;
+  
+}
+
+.pic{
+  border-radius: 50%;
+  
+}
+.picfeed{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.fotoPerfil{
+  /* height: 50px; */
+  border-radius: 50%;
+}
